@@ -8,7 +8,7 @@ const projects = [
     category: "Technical Translation",
     description: "Translated a 200-page technical manual for an engineering firm from English to Spanish, ensuring accuracy and consistency of terminology.",
     tags: ["English-Spanish", "Engineering", "SDL Trados"],
-    imageUrl: "https://placehold.co/400x300.png",
+    imageUrl: "https://placehold.co/400x225.png", // Adjusted height to match Image component props
     imageHint: "technical document"
   },
   {
@@ -16,7 +16,7 @@ const projects = [
     category: "Localization",
     description: "Localized a Shopify e-commerce website into French, including product descriptions, UI elements, and marketing copy, adapting content for the French market.",
     tags: ["Spanish-French", "E-commerce", "Shopify"],
-    imageUrl: "https://placehold.co/400x300.png",
+    imageUrl: "https://placehold.co/400x225.png", // Adjusted height to match Image component props
     imageHint: "website screen"
   },
   {
@@ -24,7 +24,7 @@ const projects = [
     category: "Literary Translation",
     description: "Translated a contemporary short story from French to Spanish, focusing on preserving the author's unique voice and style.",
     tags: ["French-Spanish", "Literature", "Creative Writing"],
-    imageUrl: "https://placehold.co/400x300.png",
+    imageUrl: "https://placehold.co/400x225.png", // Adjusted height to match Image component props
     imageHint: "book cover"
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     category: "Interpretation",
     description: "Provided consecutive interpretation support (EN-ES) for guest speakers at a 3-day international business conference.",
     tags: ["English-Spanish", "Consecutive Interpreting", "Business"],
-    imageUrl: "https://placehold.co/400x300.png",
+    imageUrl: "https://placehold.co/400x225.png", // Adjusted height to match Image component props
     imageHint: "conference people"
   },
 ];
@@ -55,7 +55,7 @@ export default function ProjectsSection() {
                 alt={project.title}
                 data-ai-hint={project.imageHint}
                 width={400}
-                height={225} // 16:9 aspect ratio for 400 width
+                height={225} 
                 className="w-full h-48 object-cover"
               />
               <CardHeader>
