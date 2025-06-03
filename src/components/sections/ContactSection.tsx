@@ -56,7 +56,7 @@ export default function ContactSection() {
   }, [state, toast]);
   
   return (
-    <section id="contact" className="w-full py-12 md:py-20 lg:py-24 bg-secondary/30">
+    <section id="contact" className="w-full py-12 md:py-20 lg:py-24">
       <div className="container px-4 md:px-6">
         <Card className="max-w-xl mx-auto shadow-lg">
           <CardHeader className="text-center">
