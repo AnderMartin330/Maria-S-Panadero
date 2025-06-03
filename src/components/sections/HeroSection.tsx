@@ -45,6 +45,7 @@ export default function HeroSection() {
           width={600}
           height={600}
           className="mx-auto aspect-square overflow-hidden rounded-xl object-cover sm:w-full lg:order-last shadow-lg"
+          priority // Added priority prop
         />
       </div>
     </section>
