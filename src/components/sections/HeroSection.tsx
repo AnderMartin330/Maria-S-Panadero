@@ -39,7 +39,7 @@ export default function HeroSection() {
           </div>
         </div>
         <Image
-          src="img/retrato.png"
+          src="/hero-image.png"
           alt="María S. Panadero - Professional Photo"
           data-ai-hint="professional woman"
           width={600}
