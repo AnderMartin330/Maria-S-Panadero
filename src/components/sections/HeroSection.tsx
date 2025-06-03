@@ -39,13 +39,12 @@ export default function HeroSection() {
           </div>
         </div>
         <Image
-          src="https://placehold.co/600x600.png"
+          src="/image.png"
           alt="María S. Panadero - Professional Photo"
-          data-ai-hint="professional woman"
           width={600}
           height={600}
           className="mx-auto aspect-square overflow-hidden rounded-xl object-cover sm:w-full lg:order-last shadow-lg"
-          priority // Added priority prop
+          priority 
         />
       </div>
     </section>
