@@ -39,7 +39,7 @@ export default function HeroSection() {
           </div>
         </div>
         <Image
-          src="/hero-image.png" 
+          src="/img/retrato.png"
           alt="María S. Panadero - Professional Photo"
           width={600}
           height={600}
