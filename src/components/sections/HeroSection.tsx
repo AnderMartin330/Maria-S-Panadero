@@ -39,8 +39,9 @@ export default function HeroSection() {
           </div>
         </div>
         <Image
-          src="/img/retrato.png"
+          src="https://placehold.co/600x600.png"
           alt="María S. Panadero - Professional Photo"
+          data-ai-hint="professional portrait"
           width={600}
           height={600}
           className="mx-auto aspect-square overflow-hidden rounded-xl object-cover sm:w-full lg:order-last shadow-lg"
