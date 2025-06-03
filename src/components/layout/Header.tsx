@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center">
-        <Link href="/" className="mr-6 flex items-center space-x-2">
+        <Link href="/#hero" className="mr-6 flex items-center space-x-2">
           <Feather className="h-6 w-6 text-primary" />
           <span className="font-headline text-lg font-semibold">María S. Panadero</span>
         </Link>
@@ -42,7 +42,7 @@ export default function Header() {
             </SheetTrigger>
             <SheetContent side="right" className="w-[240px] sm:w-[300px]">
               <div className="p-6">
-                <Link href="/" className="mb-6 flex items-center space-x-2" onClick={() => setIsMobileMenuOpen(false)}>
+                <Link href="/#hero" className="mb-6 flex items-center space-x-2" onClick={() => setIsMobileMenuOpen(false)}>
                   <Feather className="h-6 w-6 text-primary" />
                   <span className="font-headline text-lg font-semibold">María S. Panadero</span>
                 </Link>
