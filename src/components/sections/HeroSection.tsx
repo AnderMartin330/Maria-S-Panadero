@@ -39,7 +39,7 @@ export default function HeroSection() {
           </div>
         </div>
         <Image
-          src="https://placehold.co/600x600.png"
+          src="img/retrato.png"
           alt="María S. Panadero - Professional Photo"
           data-ai-hint="professional woman"
           width={600}
